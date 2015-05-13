@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<people>
+#foreach( $people in $peopleList )
+    <name>$people.name</name>
+    <age>$people.age</age>  
+#end
+</people>
